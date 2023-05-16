@@ -1,0 +1,53 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br><br>");
+
+    }
+
+    function mostra (frase) {
+
+        document.write(frase);
+        pulaLinha ();
+
+    }
+
+    var ano = 2016;
+    
+
+    mostra ("Flávio tem "  + (ano - 1977) + " anos.");
+    
+    mostra("Joaquim tem " + (ano - 1996) + " anos.");
+    
+    ano = 2017;
+
+    mostra ("Barney tem " + (ano - 1976) + " anos.");
+    
+
+    var idadeFlavio = 39;
+    var idadeJoaquim = 20;
+    var idadeBarney = 41;
+    var media = (idadeFlavio+idadeJoaquim+idadeBarney)/3;
+
+    mostra ("A média das idades é " + Math.round(media) + ".");
+
+
+
+</script>
+
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+
+    var tanque = 40;
+    var caminhoComGasolina = 480;
+    var consumoDeGasolina = caminhoComGasolina/tanque;
+    var caminhoComAlcool = 300;
+    var consumoDeAlcool = caminhoComAlcool/tanque;
+
+    document.write("O consumo de gasolina é de " + consumoDeGasolina + " e o consumo de álcool é de " + consumoDeAlcool)
+
+</script>
